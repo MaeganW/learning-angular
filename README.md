@@ -35,3 +35,11 @@ ng g c {nameofnewcomponent} - creates a new component
 ## general notes
 
 FormModules - must be added to the app.module.ts imports array
+Can add style libraries like bootstrap to the angular-cli.json file like this:
+
+      "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+
+
