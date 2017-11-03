@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## command notes
+
+ng server - runs the app
+ng new - creates a new app
+ng g c {nameofnewcomponent} - creates a new component
+
+## general notes
+
+FormModules - must be added to the app.module.ts imports array
