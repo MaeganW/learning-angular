@@ -1,0 +1,14 @@
+<h2>Assignment Two - two way databinding</h2>
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="userName">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit {{userName}}.
+   Unde, asperiores. Maxime nulla ipsum voluptates nam quos modi officia
+   laborum delectus quaerat. Atque sequi voluptate ab esse,
+   libero accusamus alias eligendi.
+</p>
+<button
+  class="btn btn-primary"
+  (click)="clearUserName()"
+  [disabled]="(userName === '')">Clear Username</button>
