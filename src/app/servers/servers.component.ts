@@ -14,12 +14,14 @@ export class ServersComponent implements OnInit {
   serverCreated = false;
   serverCreationStatus = 'No server was created.';
   serverName = 'unknown';
+  servers = ['server1', 'server2'];
 
   constructor() {
     setTimeout(() => this.allowNewServer = true , 3000);
   }
 
   onCreateServer() {
+    this.servers.push(this.serverName);
     this.serverCreated = true;
     this.serverCreationStatus = `Server ${this.serverName} was created.`;
   }
