@@ -42,4 +42,11 @@ Can add style libraries like bootstrap to the angular-cli.json file like this:
         "styles.css"
       ],
 
+ngIf and ng-template
+
+      <!-- <p *ngIf="serverCreated; else noServer">A server was created.  It's name is {{ serverName }}.</p>
+      <ng-template #noServer>
+        <p>A server has not yet been created.</p>
+      </ng-template> -->
+
 
