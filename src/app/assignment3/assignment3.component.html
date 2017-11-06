@@ -3,7 +3,7 @@
   (click)="onClick()">Display Details</button>
 <p *ngIf="visible">This is the secret paragraph. Code word 'Boo!'</p>
 <p
-  *ngFor="let click of btnClicks"
-  [ngStyle]="(click > 4) ? {backgroundColor: 'blue'} : null"
-  [ngClass]="{white: (click > 4)}"
->The click is {{click}}.</p>
+  *ngFor="let date of btnClicks; let i = index"
+  [ngStyle]="(i >= 4) ? {backgroundColor: 'blue'} : null"
+  [ngClass]="{white: (i >= 4)}"
+>The date is {{date}}.</p>
