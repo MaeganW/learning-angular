@@ -9,8 +9,6 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { UsernameComponent } from './username/username.component';
 import { Assignment3Component } from './assignment3/assignment3.component';
-import { Assignment3TextComponent } from './assignment3-text/assignment3-text.component';
-import { Assignment3textComponent } from './assignment3text/assignment3text.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +18,7 @@ import { Assignment3textComponent } from './assignment3text/assignment3text.comp
     SuccessAlertComponent,
     WarningAlertComponent,
     UsernameComponent,
-    Assignment3Component,
-    Assignment3TextComponent,
-    Assignment3textComponent,
+    Assignment3Component
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
